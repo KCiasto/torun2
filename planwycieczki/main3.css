@@ -1,0 +1,28 @@
+body{
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/prism.png");
+/* background-color:rgba(110,164,206,0.84); */
+
+}
+
+.naglowek{
+	text-align: center;
+	font-size: 44px;
+}
+.miejsce{
+	font-size:20px;
+	height:50px;
+}
+.pasek{
+	background-color:teal;
+	height:20px;
+	width:100%;
+	
+	
+}
+.autokar{
+	float:left;
+	Width:45%;
+}
+.mapa{
+	float:left;
+}

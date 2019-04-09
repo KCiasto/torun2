@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Formularz</title>
+	<meta name="description" content="Do wycieczki">
+	<meta name="keywords" content="Forlmularz">
+	<meta name="author" content="Karolina Ciasto">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+
+	<link rel="stylesheet" href="main04.css">
+	<script src="code.js"></script>
+	
+</head>
+<body>
+<div class="container">
+<div class="tytul"><strong>Formularz zgłoszeniowy</strong></div>
+<div class="nawigacja">
+<td align="right">
+<h1><a href="../index.html">Wycieczka2019</a></h1></br>
+<a href="index.html">Formularz zgłoszeniowy</a> || </br>
+<a href="../planwycieczki/index.html">Plan wycieczki</a> || </br>
+<a href="../galeria.html">Galeria</a> || </br>
+<a href="../kontakt.html">Kontakt</a></br>
+</td>
+</div>
+<div class="formularz">
+<form name="logowanie" method="post"  action="">
+<p>
+Login:
+<input type="text" id="login" > </p>
+<p>
+Hasło:
+<input type="password" id="haslo" ></p>
+<p>Zgłaszam chęć wyjazdu na wycieczkę:<br>
+<p><input type="radio" name="wybor" value="tak" required>TAK<br>
+<input type="radio" name="wybor" value="nie" required>NIE<br>
+<input type="radio" name="wybor" required>Jeszcze się zastanowię</p>
+<p><strong>Zgłaszam chęć udziału w następujących wydarzeniach na wycieczce:<br></strong><br>
+<input type="checkbox" id="Kasprowy">Wjazd kolejką na Kasprowy Wierch<br>
+<input type="checkbox" id="aquapark">Wyjście do aquaparku<br>
+<input type="checkbox" id="Morskie_Oko">Wycieczka piesza do Morskiego Oka</p><br>
+<p>Uwagi:
+<br></p>
+<p>
+<textarea name="uwagi" id="uwagi" cols="45" rows="4"></textarea>
+</p>
+<p>
+<input type="submit" name="zapisz" value="Zapisz" onclick="wypisz()">
+</p>
+</form>
+</div>
+<div class="aktualizacja">Ostatnia aktualizacja strony:28.03.2019r.</div>
+
+<!-- <script> -->
+<!-- function wypisz(){ -->
+
+<!-- alert("zapisales sie"); -->
+
+<!-- } -->
+<!-- </script> -->
+
+
+
+</body>
+</html>

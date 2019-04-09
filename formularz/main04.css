@@ -1,0 +1,33 @@
+body{
+	background-color: #778899;
+}
+.container{
+	margin:auto;
+	background-color:white;
+	width:80%;
+	height:95%;
+}
+.tytul{
+	background-color:grey;
+	text-align:center;
+	height:60px;
+	font-size:20px;
+}
+.nawigacja{
+	background-color:#FFA07A;
+	float:left;
+	width:20%;
+	height:520px;
+	
+}
+.formularz{
+	background-color:#00CED1;
+	float:left;
+	width:80%;
+	height:520px;
+	
+}
+.aktualizacja{
+	text-align:center;
+	background-color:purple;
+}
